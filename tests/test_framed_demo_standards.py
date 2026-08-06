@@ -51,6 +51,18 @@ class FramedDemoStandardsTest(unittest.TestCase):
         self.assertIn("156 张已分级的远端参考图库", skill)
         self.assertIn("下载通过校验的图片", skill)
         self.assertIn("不得从环境照片裁出设备", skill)
+        self.assertIn("必须通过模型参考融合完成", skill)
+        self.assertIn("不得用贴图修补整台设备", skill)
+
+    def test_lcd_environment_has_three_zone_rejection_gate(self) -> None:
+        skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        visual_rules = (ROOT / "references" / "visual-rules.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("三段式硬件一票否决", skill)
+        self.assertIn("上下屏合并直接判定不合格", skill)
+        self.assertIn("LCD three-zone silhouette", visual_rules)
+        self.assertIn("automatic rejection", visual_rules)
 
 
 if __name__ == "__main__":

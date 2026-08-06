@@ -46,6 +46,7 @@ Keep the media hardware realistic first, then place the supplied poster inside i
 - Do not turn the installation into a giant wall mural, mall lightbox, outdoor billboard, bus stop panel, or retail shelf display.
 - Do not make the elevator cabin or hallway physically too large for the media.
 - Do not make elevator doors narrow or oddly placed to accommodate the screen/frame.
+- Treat the LCD three-zone silhouette as a hard environment-image gate, including at distance: a separate 16:9 upper screen, an opaque white middle hardware/sensor band, and a separate 16:3 lower strip. Any merged single advertising surface, square single screen, missing middle band, or missing lower strip is an automatic rejection.
 - Do not place poster frames on the elevator door wall or put the main cabin button panel on the far back wall.
 - Do not reveal hidden object faces just because they are semantically important. If the camera cannot see the screen, button panel, or poster surface from that side, either omit it or change the camera angle.
 - Do not allow print-production artifacts in mockups: no dashed/dotted guide lines, crop marks, measuring ticks, safety boxes, or dimension annotations on poster frames or screen content.
