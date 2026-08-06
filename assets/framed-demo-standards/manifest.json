@@ -4,9 +4,9 @@
   "assets": [
     {
       "file": "smart-32-standard.png",
-      "source_provenance": "Approved 32-inch smart-screen hardware frame with a fictional, unbranded demo creative.",
-      "source_type": "video_frame",
-      "source_timecode": "00:00:05.000",
+      "source_provenance": "GPT Image 2 edit of the approved 32-inch smart-screen hardware reference using a fictional campaign.",
+      "source_type": "verified_reference_model_edit",
+      "source_timecode": null,
       "media_type": "32-inch smart screen / 32英寸智能屏",
       "role": "framed_demo_standard",
       "allowed_use": [
@@ -20,9 +20,9 @@
     },
     {
       "file": "lcd-32-standard.png",
-      "source_provenance": "Approved 32-inch building-LCD hardware frame with a fictional, unbranded demo creative.",
-      "source_type": "video_frame",
-      "source_timecode": "00:00:13.000",
+      "source_provenance": "GPT Image 2 generation following the approved 32-inch building-LCD hardware structure using a fictional campaign.",
+      "source_type": "verified_structure_model_generation",
+      "source_timecode": null,
       "media_type": "32-inch building LCD / 32英寸楼宇LCD",
       "role": "framed_demo_standard",
       "allowed_use": [
@@ -36,8 +36,8 @@
     },
     {
       "file": "poster-frame-standard.png",
-      "source_provenance": "Approved poster-frame hardware still with a fictional, unbranded demo creative.",
-      "source_type": "still_photo",
+      "source_provenance": "GPT Image 2 edit of the approved poster-frame hardware reference using a fictional campaign.",
+      "source_type": "verified_reference_model_edit",
       "source_timecode": null,
       "media_type": "poster frame / 海报框架",
       "role": "framed_demo_standard",
