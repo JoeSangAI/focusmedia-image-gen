@@ -1,0 +1,290 @@
+[
+  {
+    "id": "lcd_01_clean_hall",
+    "thumbnail": "assets/reference-thumbnails/lcd_01_clean_hall.jpg",
+    "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0001.jpg",
+    "tier": "primary",
+    "tags": [
+      "lcd",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 7008,
+    "source_height": 3944
+  },
+  {
+    "id": "lcd_02_light_lobby",
+    "thumbnail": "assets/reference-thumbnails/lcd_02_light_lobby.jpg",
+    "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0006.jpg",
+    "tier": "primary",
+    "tags": [
+      "lcd",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 7008,
+    "source_height": 3944
+  },
+  {
+    "id": "lcd_03_wood_panel",
+    "thumbnail": "assets/reference-thumbnails/lcd_03_wood_panel.jpg",
+    "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0013.jpg",
+    "tier": "primary",
+    "tags": [
+      "lcd",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 1920,
+    "source_height": 1080
+  },
+  {
+    "id": "lcd_04_cinematic_screen",
+    "thumbnail": "assets/reference-thumbnails/lcd_04_cinematic_screen.jpg",
+    "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0046.jpg",
+    "tier": "primary",
+    "tags": [
+      "lcd",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 2500,
+    "source_height": 1668
+  },
+  {
+    "id": "lcd_05_classic_wall",
+    "thumbnail": "assets/reference-thumbnails/lcd_05_classic_wall.jpg",
+    "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0065.jpg",
+    "tier": "primary",
+    "tags": [
+      "lcd",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 2500,
+    "source_height": 1668
+  },
+  {
+    "id": "lcd_06_elevator_bank",
+    "thumbnail": "assets/reference-thumbnails/lcd_06_elevator_bank.jpg",
+    "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0099.jpg",
+    "tier": "primary",
+    "tags": [
+      "lcd",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 6224,
+    "source_height": 4672
+  },
+  {
+    "id": "poster_01_premium_panel",
+    "thumbnail": "assets/reference-thumbnails/poster_01_premium_panel.jpg",
+    "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0010.jpg",
+    "tier": "primary",
+    "tags": [
+      "poster-frame",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 2500,
+    "source_height": 1668
+  },
+  {
+    "id": "poster_02_glass_frame",
+    "thumbnail": "assets/reference-thumbnails/poster_02_glass_frame.jpg",
+    "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0027.jpg",
+    "tier": "primary",
+    "tags": [
+      "poster-frame",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 4672,
+    "source_height": 6224
+  },
+  {
+    "id": "poster_03_reflective_lobby",
+    "thumbnail": "assets/reference-thumbnails/poster_03_reflective_lobby.jpg",
+    "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0033.jpg",
+    "tier": "primary",
+    "tags": [
+      "poster-frame",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 3747,
+    "source_height": 4991
+  },
+  {
+    "id": "poster_04_inside_gallery",
+    "thumbnail": "assets/reference-thumbnails/poster_04_inside_gallery.jpg",
+    "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0001.jpg",
+    "tier": "primary",
+    "tags": [
+      "poster-frame",
+      "elevator-inside",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 7008,
+    "source_height": 3944
+  },
+  {
+    "id": "smart_01_stainless_lobby",
+    "thumbnail": "assets/reference-thumbnails/smart_01_stainless_lobby.jpg",
+    "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0002.jpg",
+    "tier": "primary",
+    "tags": [
+      "smart-screen",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 2500,
+    "source_height": 1668
+  },
+  {
+    "id": "smart_02_stone_wall",
+    "thumbnail": "assets/reference-thumbnails/smart_02_stone_wall.jpg",
+    "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0004.jpg",
+    "tier": "primary",
+    "tags": [
+      "smart-screen",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 3648,
+    "source_height": 2736
+  },
+  {
+    "id": "smart_03_black_panel",
+    "thumbnail": "assets/reference-thumbnails/smart_03_black_panel.jpg",
+    "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0007.jpg",
+    "tier": "primary",
+    "tags": [
+      "smart-screen",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 2500,
+    "source_height": 1668
+  },
+  {
+    "id": "smart_04_warm_lobby",
+    "thumbnail": "assets/reference-thumbnails/smart_04_warm_lobby.jpg",
+    "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0011.jpg",
+    "tier": "primary",
+    "tags": [
+      "smart-screen",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 7296,
+    "source_height": 5472
+  },
+  {
+    "id": "smart_05_glass_lobby",
+    "thumbnail": "assets/reference-thumbnails/smart_05_glass_lobby.jpg",
+    "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0018.jpg",
+    "tier": "primary",
+    "tags": [
+      "smart-screen",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 7008,
+    "source_height": 3944
+  },
+  {
+    "id": "smart_06_lift_bank",
+    "thumbnail": "assets/reference-thumbnails/smart_06_lift_bank.jpg",
+    "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0022.jpg",
+    "tier": "primary",
+    "tags": [
+      "smart-screen",
+      "elevator-hall",
+      "front",
+      "mid",
+      "nopeople",
+      "grade-a",
+      "curated",
+      "tier-primary"
+    ],
+    "source_width": 7008,
+    "source_height": 3944
+  }
+]

@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+.focusmedia-cache/
+.remote-public/
+*.tmp
+*.log

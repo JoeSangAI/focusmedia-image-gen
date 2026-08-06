@@ -1,0 +1,4 @@
+interface:
+  display_name: "分众媒体图片生成"
+  short_description: "生成分众带框图、环境效果图、精确 LCD 条屏与 TVC Demo"
+  default_prompt: "Use $focusmedia-image-gen to create or revise a Focus Media framed-media demo, environment image, exact LCD lower strip, or framed LCD TVC demo."

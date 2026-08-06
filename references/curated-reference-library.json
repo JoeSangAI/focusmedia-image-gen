@@ -1,0 +1,321 @@
+{
+  "schema_version": 2,
+  "purpose": "A graded remote reference library: default premium references plus scenario-specific references for wide impact, people scale, multi-frame poster coverage, interior views, and alternate perspectives.",
+  "policy": {
+    "primary": "Default generation references. Use these first for clean, premium, hardware-focused output.",
+    "scenario": "Use when a brief needs a specific spatial effect such as wide impact, people scale, multi-frame poster coverage, an interior view, or an alternate perspective.",
+    "exclude": "Do not publish mixed-media images, visibly weak media presentations, or environments that are dark, dated, cluttered, or materially below the desired premium spatial standard."
+  },
+  "unlisted_tier": "scenario",
+  "excluded_sources": [
+    "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_wide_wide_people_C_0009.jpg",
+    "assets/media-library/04_mixed_media/FM_MIXED_elevator-inside_front_mid_nopeople_C_0001.jpg",
+    "assets/media-library/04_mixed_media/FM_MIXED_elevator-hall_angle_mid_nopeople_C_0002.jpg",
+    "assets/media-library/04_mixed_media/FM_MIXED_elevator-hall_front_mid_nopeople_C_0003.jpg",
+    "assets/media-library/04_mixed_media/FM_MIXED_elevator-hall_wide_wide_nopeople_C_0004.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0007.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0018.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0019.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0034.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0038.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0039.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0043.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0045.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0053.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0054.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0057.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0060.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0064.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0068.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0071.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0077.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0080.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0081.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0085.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0090.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0096.jpg",
+    "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0097.jpg"
+  ],
+  "references": [
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0001.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/lcd_01_clean_hall.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0006.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/lcd_02_light_lobby.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0008.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0013.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/lcd_03_wood_panel.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0014.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0023.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0028.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0029.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0032.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0036.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0040.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0046.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/lcd_04_cinematic_screen.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0051.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0052.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0055.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0061.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0065.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/lcd_05_classic_wall.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0069.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0073.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0099.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/lcd_06_elevator_bank.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0087.jpg",
+      "tier": "scenario"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0101.jpg",
+      "tier": "scenario"
+    },
+    {
+      "relative_source": "assets/media-library/01_lcd_elevator_tv/FM_LCD_elevator-hall_front_mid_nopeople_A_0102.jpg",
+      "tier": "scenario"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0001.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0002.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/smart_01_stainless_lobby.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0004.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/smart_02_stone_wall.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0005.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0006.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0007.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/smart_03_black_panel.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0008.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0011.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/smart_04_warm_lobby.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0012.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0013.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0014.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0015.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0016.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0017.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0018.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/smart_05_glass_lobby.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0021.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_nopeople_A_0022.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/smart_06_lift_bank.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-inside_front_mid_nopeople_A_0003.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-hall_front_mid_people_B_0019.jpg",
+      "tier": "scenario"
+    },
+    {
+      "relative_source": "assets/media-library/02_smart_screen/FM_SMART_elevator-inside_front_mid_people_B_0010.jpg",
+      "tier": "scenario"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0010.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/poster_01_premium_panel.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0013.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0022.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0027.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/poster_02_glass_frame.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0029.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0031.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0033.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/poster_03_reflective_lobby.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0035.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0037.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0040.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0042.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-hall_front_mid_nopeople_A_0052.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0001.jpg",
+      "tier": "primary",
+      "thumbnail": "assets/reference-thumbnails/poster_04_inside_gallery.jpg"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0002.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0005.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0007.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0015.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0017.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0018.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0048.jpg",
+      "tier": "primary"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0008.jpg",
+      "tier": "scenario"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_nopeople_A_0025.jpg",
+      "tier": "scenario"
+    },
+    {
+      "relative_source": "assets/media-library/03_poster_frame/FM_POSTER_elevator-inside_front_mid_people_B_0047.jpg",
+      "tier": "scenario"
+    }
+  ]
+}

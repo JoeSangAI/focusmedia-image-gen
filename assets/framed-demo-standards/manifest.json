@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "purpose": "Authoritative complete-frame references for Focus Media framed product demos.",
+  "assets": [
+    {
+      "file": "smart-32-standard.png",
+      "source_provenance": "Approved 32-inch smart-screen hardware frame with a fictional, unbranded demo creative.",
+      "source_type": "video_frame",
+      "source_timecode": "00:00:05.000",
+      "media_type": "32-inch smart screen / 32英寸智能屏",
+      "role": "framed_demo_standard",
+      "allowed_use": [
+        "Use as the authoritative complete hardware frame for a 32-inch smart-screen product demo.",
+        "Replace only the illuminated advertising display while preserving the complete standard frame."
+      ],
+      "forbidden_use": [
+        "Do not reconstruct this frame by cropping it from a real environment photo.",
+        "Do not flat-paste this standard frame into an environment image."
+      ]
+    },
+    {
+      "file": "lcd-32-standard.png",
+      "source_provenance": "Approved 32-inch building-LCD hardware frame with a fictional, unbranded demo creative.",
+      "source_type": "video_frame",
+      "source_timecode": "00:00:13.000",
+      "media_type": "32-inch building LCD / 32英寸楼宇LCD",
+      "role": "framed_demo_standard",
+      "allowed_use": [
+        "Use as the authoritative complete hardware frame for a 32-inch building-LCD product demo.",
+        "Replace only the upper and lower advertising display surfaces while preserving the complete standard frame."
+      ],
+      "forbidden_use": [
+        "Do not reconstruct this frame by cropping it from a real environment photo.",
+        "Do not flat-paste this standard frame into an environment image."
+      ]
+    },
+    {
+      "file": "poster-frame-standard.png",
+      "source_provenance": "Approved poster-frame hardware still with a fictional, unbranded demo creative.",
+      "source_type": "still_photo",
+      "source_timecode": null,
+      "media_type": "poster frame / 海报框架",
+      "role": "framed_demo_standard",
+      "allowed_use": [
+        "Use as the authoritative complete hardware frame for a poster-frame product demo.",
+        "Replace only the printed-paper artwork behind the glass while preserving the complete standard frame."
+      ],
+      "forbidden_use": [
+        "Do not reconstruct this frame by cropping it from a real environment photo.",
+        "Do not flat-paste this standard frame into an environment image."
+      ]
+    }
+  ]
+}

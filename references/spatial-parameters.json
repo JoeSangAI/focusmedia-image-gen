@@ -1,0 +1,511 @@
+{
+  "schema_version": "1.0",
+  "basis": {
+    "official_spec_source": "references/media-specs.md",
+    "photo_library_source": "references/remote-manifest.json",
+    "photo_library_count": "public curated trial set",
+    "normalization": "DH = full elevator doorway height = 1.0; use 2100 mm for physical conversion"
+  },
+  "scene_units": {
+    "DH": {
+      "label": "full elevator doorway height",
+      "default_mm": 2100,
+      "value": 1.0
+    },
+    "DO": {
+      "label": "full elevator doorway opening width",
+      "range_DH": [
+        0.45,
+        0.6
+      ],
+      "note": "Whole doorway opening, not one sliding door leaf"
+    },
+    "call_panel": {
+      "width_DH": [
+        0.04,
+        0.08
+      ],
+      "height_DH": [
+        0.12,
+        0.22
+      ],
+      "center_y_DH": [
+        0.4,
+        0.58
+      ]
+    },
+    "adult": {
+      "height_DH": [
+        0.78,
+        0.84
+      ],
+      "eye_y_DH": [
+        0.68,
+        0.75
+      ],
+      "head_height_DH": [
+        0.1,
+        0.12
+      ]
+    },
+    "handrail": {
+      "height_DH": [
+        0.38,
+        0.48
+      ]
+    },
+    "ceiling": {
+      "height_DH": [
+        1.1,
+        1.25
+      ]
+    }
+  },
+  "media": {
+    "lcd_32": {
+      "aliases": [
+        "电梯电视",
+        "LCD",
+        "楼宇LCD",
+        "楼宇（LCD）"
+      ],
+      "scene_types": [
+        "elevator-hall",
+        "corridor"
+      ],
+      "avoid_scene_types": [
+        "elevator-inside"
+      ],
+      "outer_mm": {
+        "width": 764.5,
+        "height": 658.7,
+        "depth": 26.5
+      },
+      "creative_areas_mm": {
+        "main": {
+          "width": 697.4,
+          "height": 391.85,
+          "resolution": "1920x1080"
+        },
+        "strip": {
+          "width": 698.8,
+          "height": 130.2,
+          "resolution": "1920x360"
+        },
+        "full_video": {
+          "resolution": "1920x1440"
+        }
+      },
+      "outer_ratio_w_h": 1.161,
+      "relative_to_DH": {
+        "width": 0.364,
+        "height": 0.314
+      },
+      "relative_to_DO": {
+        "width_range": [
+          0.6,
+          0.85
+        ]
+      },
+      "mount_y_DH": {
+        "bottom": [
+          0.4,
+          0.52
+        ],
+        "center": [
+          0.56,
+          0.68
+        ],
+        "top": [
+          0.72,
+          0.85
+        ]
+      },
+      "component_ratios": {
+        "main_width_outer": 0.912,
+        "main_height_outer": 0.595,
+        "strip_width_outer": 0.914,
+        "strip_height_outer": 0.198,
+        "main_to_strip_height": 3.01
+      },
+      "adjacent_anchors": [
+        "elevator doorway",
+        "call panel below or beside",
+        "floor indicator above door",
+        "wall-panel boundaries"
+      ],
+      "negative_constraints": [
+        "do not place inside cabin for standard LCD",
+        "do not make the LCD wider than a full elevator doorway",
+        "do not remove the lower strip display",
+        "do not compress elevator doors to fit the LCD"
+      ]
+    },
+    "smart_32": {
+      "aliases": [
+        "32寸智能屏",
+        "32-inch smart screen",
+        "智能屏"
+      ],
+      "scene_types": [
+        "elevator-hall"
+      ],
+      "outer_mm": {
+        "width": 452.3,
+        "height": 757.8,
+        "depth": 39.3
+      },
+      "creative_areas_mm": {
+        "screen": {
+          "width": 391.9,
+          "height": 697.4,
+          "resolution": "1080x1920"
+        }
+      },
+      "outer_ratio_w_h": 0.597,
+      "relative_to_DH": {
+        "width": 0.215,
+        "height": 0.361
+      },
+      "relative_to_DO": {
+        "width_range": [
+          0.36,
+          0.5
+        ]
+      },
+      "relative_to_adult": {
+        "height_range": [
+          0.43,
+          0.48
+        ],
+        "width_range": [
+          0.25,
+          0.29
+        ]
+      },
+      "mount_y_DH": {
+        "bottom": [
+          0.38,
+          0.5
+        ],
+        "center": [
+          0.56,
+          0.68
+        ],
+        "top": [
+          0.74,
+          0.88
+        ]
+      },
+      "adjacent_anchors": [
+        "door-side wall panel",
+        "vertical metal trim",
+        "call panel",
+        "floor sign"
+      ],
+      "negative_constraints": [
+        "do not make it as wide as a poster frame 3.0",
+        "do not make it phone-thin",
+        "do not replace the elevator call panel with the screen"
+      ]
+    },
+    "poster_3": {
+      "aliases": [
+        "海报3.0",
+        "框架3.0",
+        "海报框架3.0",
+        "poster frame 3.0"
+      ],
+      "scene_types": [
+        "elevator-inside",
+        "elevator-hall"
+      ],
+      "finished_mm": {
+        "width": 590,
+        "height": 790
+      },
+      "visible_mm": {
+        "width": 534,
+        "height": 734
+      },
+      "finished_ratio_w_h": 0.747,
+      "visible_ratio_w_h": 0.728,
+      "relative_to_DH": {
+        "finished_width": 0.281,
+        "finished_height": 0.376,
+        "visible_width": 0.254,
+        "visible_height": 0.35
+      },
+      "relative_to_DO": {
+        "finished_width_range": [
+          0.47,
+          0.63
+        ]
+      },
+      "relative_to_adult": {
+        "height_range": [
+          0.45,
+          0.5
+        ],
+        "width_range": [
+          0.34,
+          0.38
+        ]
+      },
+      "mount_y_DH": {
+        "bottom": [
+          0.38,
+          0.5
+        ],
+        "center": [
+          0.57,
+          0.69
+        ],
+        "top": [
+          0.76,
+          0.88
+        ]
+      },
+      "appearance": [
+        "white or aluminum edge",
+        "glass surface",
+        "visible frame lip",
+        "portrait printed poster"
+      ],
+      "cabin_topology": {
+        "standard_view": "from or just inside the elevator entrance",
+        "poster_walls": [
+          "back wall",
+          "left side wall",
+          "right side wall"
+        ],
+        "excluded_walls": [
+          "door wall"
+        ],
+        "control_panel_location": "near the door side of the cabin, on a wall strip close to the entrance",
+        "outside_looking_in_visibility": "door-side control panel and elevator buttons are hidden behind the camera or door-side wall; omit them from the image"
+      },
+      "negative_constraints": [
+        "do not make it as narrow as a smart screen",
+        "do not remove glass/frame cues",
+        "do not treat landscape LCD samples as poster references",
+        "do not place poster frames on elevator doors",
+        "do not put the main control panel on the far back wall",
+        "do not show elevator buttons in an outside-looking-in cabin view"
+      ]
+    },
+    "poster_1": {
+      "aliases": [
+        "海报1.0",
+        "框架1.0",
+        "海报框架1.0",
+        "poster frame 1.0"
+      ],
+      "scene_types": [
+        "elevator-inside"
+      ],
+      "finished_mm": {
+        "width": 424,
+        "height": 570
+      },
+      "visible_mm": {
+        "width": 380,
+        "height": 530
+      },
+      "finished_ratio_w_h": 0.744,
+      "visible_ratio_w_h": 0.717,
+      "relative_to_DH": {
+        "finished_width": 0.202,
+        "finished_height": 0.271,
+        "visible_width": 0.181,
+        "visible_height": 0.252
+      },
+      "relative_to_DO": {
+        "finished_width_range": [
+          0.34,
+          0.45
+        ]
+      },
+      "mount_y_DH": {
+        "bottom": [
+          0.45,
+          0.55
+        ],
+        "top": [
+          0.72,
+          0.82
+        ]
+      },
+      "appearance": [
+        "older smaller frame",
+        "heavier frame lip",
+        "portrait printed poster"
+      ],
+      "negative_constraints": [
+        "do not scale to poster 3.0 size unless requested",
+        "do not make it a black smart screen"
+      ]
+    }
+  },
+  "cross_media_ratios": {
+    "lcd_32_width_to_smart_32_width": 1.69,
+    "lcd_32_height_to_smart_32_height": 0.87,
+    "poster_3_width_to_smart_32_width": 1.3,
+    "poster_3_height_to_smart_32_height": 1.04,
+    "poster_1_width_to_smart_32_width": 0.94,
+    "poster_1_height_to_smart_32_height": 0.75
+  },
+  "composition_width_share": {
+    "lcd_close_front": [
+      0.45,
+      0.7
+    ],
+    "lcd_mid_hall": [
+      0.15,
+      0.35
+    ],
+    "lcd_corridor_wide": [
+      0.05,
+      0.18
+    ],
+    "smart_close_front": [
+      0.25,
+      0.45
+    ],
+    "smart_mid_hall": [
+      0.08,
+      0.22
+    ],
+    "smart_people": [
+      0.18,
+      0.32
+    ],
+    "poster_close_front": [
+      0.35,
+      0.6
+    ],
+    "poster_inside_mid": [
+      0.25,
+      0.45
+    ],
+    "poster_inside_wide": [
+      0.08,
+      0.25
+    ],
+    "poster_inside_entrance_gallery_side": [
+      0.22,
+      0.38
+    ],
+    "poster_inside_entrance_gallery_back": [
+      0.16,
+      0.3
+    ]
+  },
+  "scene_templates": {
+    "lcd_hall_between_doors": {
+      "environment": "elevator waiting hall with two or more normal-width elevator doorways",
+      "placement": "LCD centered on wall panel between or beside doorways",
+      "anchors": [
+        "doorway",
+        "call panel",
+        "floor indicator",
+        "wall-panel boundaries"
+      ],
+      "avoid": [
+        "oversized screen",
+        "compressed doors",
+        "missing lower strip"
+      ]
+    },
+    "lcd_corridor_repeated": {
+      "environment": "long elevator corridor",
+      "placement": "repeated LCD units on side wall panels with perspective shrink",
+      "anchors": [
+        "vanishing point",
+        "door bays",
+        "ceiling lights",
+        "floor reflections"
+      ],
+      "avoid": [
+        "same-size repeated screens",
+        "wall murals"
+      ]
+    },
+    "smart_hall_side_wall": {
+      "environment": "elevator hall",
+      "placement": "black portrait smart screen on door-side wall or vertical column",
+      "anchors": [
+        "doorway",
+        "metal trim",
+        "call panel"
+      ],
+      "avoid": [
+        "poster-frame width",
+        "phone-thin device"
+      ]
+    },
+    "smart_inside_cabin": {
+      "environment": "elevator cabin",
+      "placement": "smart screen on side wall near control-panel side",
+      "anchors": [
+        "control buttons",
+        "person head and shoulder",
+        "handrail"
+      ],
+      "avoid": [
+        "screen taller than half an adult body unless close-up perspective explains it"
+      ]
+    },
+    "poster_inside_single": {
+      "environment": "elevator cabin",
+      "placement": "single portrait frame on side or back wall, never on the door wall",
+      "anchors": [
+        "handrail",
+        "wall seams",
+        "ceiling light",
+        "near-door control panel"
+      ],
+      "avoid": [
+        "missing frame lip",
+        "smart-screen narrowness",
+        "poster on elevator doors",
+        "control panel on far back wall"
+      ]
+    },
+    "poster_inside_gallery": {
+      "environment": "elevator cabin viewed from or just inside the entrance",
+      "placement": "three poster frames on non-door walls: back wall, left side wall, right side wall",
+      "anchors": [
+        "back wall",
+        "left side wall",
+        "right side wall",
+        "handrail",
+        "ceiling light",
+        "floor threshold"
+      ],
+      "visibility_rule": "if camera is outside the elevator looking inward, omit elevator buttons entirely because the near-door control panel is hidden behind the viewer or door-side wall",
+      "avoid": [
+        "flattened frames with no perspective",
+        "poster frames on elevator doors",
+        "visible elevator buttons in outside-looking-in view",
+        "main control panel on far back wall"
+      ]
+    },
+    "poster_hall_wall": {
+      "environment": "hall wall near elevator doorway",
+      "placement": "portrait frame on wall panel",
+      "anchors": [
+        "doorway",
+        "wall panel",
+        "floor sign",
+        "person if present"
+      ],
+      "avoid": [
+        "landscape LCD hardware"
+      ]
+    }
+  },
+  "reference_exclusions": {
+    "poster_scale": []
+  }
+}
